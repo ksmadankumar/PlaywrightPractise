@@ -1,0 +1,8 @@
+//Validate usernames, IDs, or strings against business rules.
+
+function isPalindrome(str){
+    const cleaned = str.toLowerCase();
+    return cleaned === cleaned.split("").reverse().join("");
+}
+
+console.log(isPalindrome("Madan"));

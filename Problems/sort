@@ -1,0 +1,7 @@
+const numbers = [8,4,2,7];
+
+numbers.sort((a,b)=>a-b);
+
+console.log(numbers);
+
+

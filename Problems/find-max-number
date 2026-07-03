@@ -1,0 +1,17 @@
+// Verify highest price or highest score.
+
+function maxNumber(arr) {
+   return Math.max(...arr);
+}
+
+console.log(maxNumber([5,2,10,1]));
+
+
+// Find minimum
+
+
+function minNumber(arr){
+    return Math.min(...arr);
+}
+
+console.log(minNumber([1,2,0,6,10]));
