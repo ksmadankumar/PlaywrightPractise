@@ -6,6 +6,6 @@ test ("TC-001 Verify login is successful", async({page}) => {
     await page.getByTestId('password-input').fill("Brew@2026");
     await page.getByTestId("login-button").click;
 
-    await expect(page).toHaveURL(/products/);
+    await expect(page).toHaveURL(/Products/);
     
 })
